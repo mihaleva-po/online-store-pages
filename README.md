@@ -6,7 +6,7 @@
 ![image](public/3.png)
 
 
-# Implemented:
+## Implemented:
 - catalog and shopping cart layout
 - adding items to cart
 - changing the quantity of goods in the cart
