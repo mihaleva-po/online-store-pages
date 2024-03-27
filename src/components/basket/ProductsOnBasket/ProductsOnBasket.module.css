@@ -1,0 +1,22 @@
+.container {
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  width: 633px;
+}
+.container h3 {
+  color: #1C1C27;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+}
+.container .back {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=ProductsOnBasket.module.css.map */

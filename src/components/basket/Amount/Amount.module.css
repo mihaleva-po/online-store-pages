@@ -1,0 +1,42 @@
+.container {
+  width: 348.98px;
+  height: 114px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  position: sticky;
+  top: 164px;
+}
+.container .amount {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 30px;
+}
+.container .amount p {
+  color: #000;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.container button {
+  cursor: pointer;
+  width: 348.98px;
+  height: 65px;
+  flex-shrink: 0;
+  border-radius: 20px;
+  background: #101010;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.25);
+  color: #FFF;
+  text-align: center;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=Amount.module.css.map */

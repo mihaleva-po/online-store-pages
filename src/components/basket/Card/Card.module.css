@@ -1,0 +1,86 @@
+.container {
+  width: 633px;
+  height: 218px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+.container .main {
+  display: flex;
+  padding: 18px 28px 0 19px;
+}
+.container .main .icon {
+  width: 146.528px;
+  height: 136px;
+  flex-shrink: 0;
+  overflow: hidden;
+}
+.container .main .icon img {
+  max-width: 77%;
+  height: auto;
+}
+.container .main .text {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-left: 24px;
+  gap: 12px;
+  align-self: flex-end;
+}
+.container .main .text h3 {
+  color: #1C1C27;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 0;
+}
+.container .main .text p {
+  color: #AAA;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-align: left;
+  margin-top: 0;
+}
+.container .main .delete {
+  margin-left: 252px;
+}
+.container .main .delete svg {
+  cursor: pointer;
+}
+.container .price-count {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  padding: 0 30px;
+}
+.container .price-count .count {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.container .price-count .count svg {
+  cursor: pointer;
+}
+.container .price-count .count p {
+  color: #000;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.container .price-count p {
+  color: #1C1C27;
+  text-align: right;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+/*# sourceMappingURL=Card.module.css.map */

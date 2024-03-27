@@ -1,0 +1,97 @@
+.container {
+  width: 633px;
+  height: 218px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.10);
+  display: flex;
+  flex-direction: column;
+
+  .main {
+	display: flex;
+	padding: 18px 28px 0 19px;
+
+	.icon {
+	  width: 146.528px;
+	  height: 136px;
+	  flex-shrink: 0;
+	  overflow: hidden;
+
+	  img {
+		max-width: 77%;
+		height: auto;
+	  }
+	}
+
+	.text {
+	  display: flex;
+	  flex-direction: column;
+	  flex-wrap: wrap;
+	  margin-left: 24px;
+	  gap: 12px;
+	  align-self: flex-end;
+
+	  h3 {
+		color: #1C1C27;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 500;
+		line-height: normal;
+		margin-bottom: 0;
+	  }
+
+	  p {
+		color: #AAA;
+		font-size: 15px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+		text-align: left;
+		margin-top: 0;
+	  }
+	}
+
+	.delete {
+	  margin-left: 252px;
+
+	  svg {
+		cursor: pointer;
+	  }
+	}
+  }
+
+  .price-count {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	padding: 0 30px;
+	
+	.count {
+	  display: flex;
+	  align-items: center;
+	  gap: 25px;
+
+	  svg {
+		cursor: pointer;
+	  }
+
+	  p {
+		color: #000;
+		font-size: 17px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: normal;
+	  }
+	}
+
+	p {
+	  color: #1C1C27;
+	  text-align: right;
+	  font-size: 15px;
+	  font-style: normal;
+	  font-weight: 600;
+	  line-height: normal;
+	}
+  }
+}

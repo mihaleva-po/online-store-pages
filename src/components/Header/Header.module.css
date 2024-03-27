@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1135px;
+  height: 60px;
+  flex-shrink: 0;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: #EAEAEA;
+}
+.container h2 {
+  color: #101010;
+  font-size: 25px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.container .icons {
+  gap: 45px;
+  display: flex;
+}
+.container .icons .icon {
+  cursor: pointer;
+  position: relative;
+}
+.container .icons .icon svg {
+  fill: #838383;
+}
+.container .icons .icon .count {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+}
+.container .icons .icon .count .circle {
+  fill: #FFA542;
+  position: relative;
+}
+.container .icons .icon .count svg text {
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.container .icons .icon .count p {
+  position: absolute;
+  color: #FFF;
+  text-align: center;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  top: 10px;
+  left: 10px;
+}
+
+/*# sourceMappingURL=Header.module.css.map */

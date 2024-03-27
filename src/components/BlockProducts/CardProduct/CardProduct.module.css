@@ -1,0 +1,69 @@
+.container {
+  width: 350px;
+  height: 407px;
+  flex-shrink: 0;
+  border-radius: 30px;
+  background: #FFF;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+}
+.container .container-img {
+  display: flex;
+  margin-top: 27px;
+  height: 237.074px;
+  align-items: center;
+  justify-content: center;
+}
+.container .text {
+  flex-shrink: 0;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  display: flex;
+}
+.container .text .left-text {
+  margin-left: 21px;
+  align-items: center;
+  width: 148px;
+}
+.container .text .left-text h3 {
+  flex-shrink: 0;
+  color: #1C1C27;
+  white-space: nowrap;
+}
+.container .text .left-text .rate {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.container .text .left-text .rate svg {
+  width: 23.333px;
+  height: 21.926px;
+  flex-shrink: 0;
+  fill: #FFCE7F;
+  cursor: pointer;
+}
+.container .text .left-text .rate p {
+  flex-shrink: 0;
+  color: #838383;
+  cursor: pointer;
+}
+.container .text .right-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-left: 70px;
+}
+.container .text .right-text p {
+  flex-shrink: 0;
+  color: #FFA542;
+  display: flex;
+  flex-wrap: nowrap;
+}
+.container .text .right-text h3 {
+  color: #000;
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=CardProduct.module.css.map */

@@ -1,0 +1,65 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1135px;
+  height: 60px;
+  flex-shrink: 0;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  background: #EAEAEA;
+
+  h2 {
+	color: #101010;
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+  }
+
+  .icons {
+	gap: 45px;
+	display: flex;
+
+	.icon {
+	  cursor: pointer;
+	  position: relative;
+
+	  svg {
+		fill: #838383;
+	  }
+
+	  .count {
+		position: absolute;
+		bottom: 15px;
+		left: 15px;
+
+		.circle {
+		  fill: #FFA542;
+		  position: relative;
+		}
+
+		svg text {
+		  color: #FFF;
+		  text-align: center;
+		  font-size: 15px;
+		  font-style: normal;
+		  font-weight: 500;
+		  line-height: normal;
+		}
+
+		p {
+		  position: absolute;
+		  color: #FFF;
+		  text-align: center;
+		  font-size: 15px;
+		  font-style: normal;
+		  font-weight: 500;
+		  line-height: normal;
+		  top: 10px;
+		  left: 10px;
+		}
+	  }
+	}
+  }
+}

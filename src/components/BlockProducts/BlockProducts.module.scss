@@ -1,0 +1,19 @@
+.container {
+  width: 1110px;
+  flex-shrink: 0;
+
+  .cards {
+	display: grid;
+	grid-template-columns: 33% 33% 33%;
+	gap: 13px;
+  }
+
+  p {
+	color: #838383;
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+	text-align: left;
+  }
+}
