@@ -12,6 +12,7 @@
 - changing the quantity of goods in the cart
 - removing an item from the cart
 - calculating the total cost of items in the cart
+- change language site
 
 
 ## Available Scripts
